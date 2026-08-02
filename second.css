@@ -1,0 +1,592 @@
+/* page2 */
+.ad_content_img_box{
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    margin:0 auto 20px;
+}
+
+.img_box_img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+.ad_txt_cont.page2{
+
+    position:absolute;
+    inset:0;
+
+    box-sizing:border-box;
+
+    pointer-events:none;
+
+}
+
+/*
+ GREEN SECTION
+*/
+
+.green-section{
+
+    position:absolute;
+
+    left:6%;
+    right:6%;
+
+    top:3%;
+
+    width:auto;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:flex-start;
+
+}
+
+.title2{
+
+    font-family:"Bebas Neue",sans-serif;
+
+    color:#E8E521;
+
+    text-transform:uppercase;
+
+    font-size:clamp(20px,0.5vw,35px);
+
+    line-height:.45;
+
+    letter-spacing:.80px;
+
+    margin:0 0 18px;
+
+}
+
+.green-section .text-wrap{
+
+    width:100%;
+
+}
+
+.green-section .content-text2{
+
+    color:#fff;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    font-size:clamp(18px,1.25vw,22px);
+
+    line-height:1.55;
+
+    text-align:justify;
+
+    margin:0;
+
+
+}
+
+
+
+/*
+ WHITE SECTION
+*/
+
+.white-section{
+
+    position:absolute;
+
+    left:7%;
+    right:7%;
+
+    top:53.5%;
+
+    bottom:7%;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+
+.white-section{
+    position:absolute;
+
+    left:7%;
+    right:7%;
+
+    top:52%;
+
+    bottom:6%;
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:hidden;
+}
+
+
+ /* Heading Row  */
+
+.head-row{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+    margin-top: 23px;
+
+    margin-bottom:22px;
+
+}
+
+
+/* Red Circle */
+
+.circle-num{
+
+    width:64px;
+
+    height:64px;
+
+    border-radius:50%;
+
+    background:#c62828;
+
+    color:#fff;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-shrink:0;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    font-size:30px;
+
+    font-weight:700;
+
+}
+
+
+/* Historical Context */
+
+.main-title{
+
+    color:#111;
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    font-size:clamp(26px,2vw,38px);
+
+    font-weight:700;
+
+    line-height:1.25;
+
+    margin:0;
+
+}
+
+/* 
+   EXECUTIVE SUMMARY
+ */
+
+.title2{
+
+    margin:0;
+
+    font-family:"Bebas Neue",sans-serif;
+
+    color:#DDE329;
+
+    font-size:clamp(56px,5.2vw,88px);
+
+    line-height:1;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+    margin-bottom:16px;
+
+}
+/*
+ TABLET
+*/
+
+@media (max-width:992px){
+
+.green-section{
+
+    left:7%;
+    right:7%;
+    top:6%;
+}
+
+.title2{
+
+    font-size:clamp(48px,6vw,72px);
+
+    margin-bottom:14px;
+}
+
+.green-section .content-text2{
+
+    font-size:18px;
+
+    line-height:1.5;
+}
+
+.white-section{
+
+    left:7%;
+    right:7%;
+    top:52%;
+    bottom:6%;
+}
+
+.circle-num{
+
+    width:56px;
+    height:56px;
+
+    font-size:26px;
+}
+
+.main-title{
+
+    font-size:24px;
+}
+
+.white-section .article-text{
+
+    font-size:18px;
+
+    line-height:1.55;
+}
+
+}
+
+/*=
+ MOBILE
+*/
+
+@media (max-width:768px){
+
+.green-section{
+
+    left:7%;
+    right:7%;
+    top:5.5%;
+}
+
+.title2{
+
+    font-size:42px;
+
+    margin-bottom:12px;
+}
+
+.green-section .content-text2{
+
+    font-size:15px;
+
+    line-height:1.45;
+}
+
+.white-section{
+
+    left:7%;
+    right:7%;
+    top:51%;
+    bottom:5%;
+}
+
+.head-row{
+
+    gap:12px;
+
+    margin-bottom:12px;
+}
+
+.circle-num{
+
+    width:42px;
+    height:42px;
+
+    font-size:20px;
+}
+
+.main-title{
+
+    font-size:18px;
+
+    line-height:1.2;
+}
+
+.white-section .article-text{
+
+    font-size:15px;
+
+    line-height:1.45;
+}
+
+}
+
+/*
+ SMALL MOBILE
+*/
+
+@media (max-width:480px){
+
+.title2{
+
+    font-size:34px;
+}
+
+.green-section .content-text2{
+
+    font-size:13px;
+}
+
+.circle-num{
+
+    width:36px;
+    height:36px;
+
+    font-size:18px;
+}
+
+.main-title{
+
+    font-size:16px;
+}
+
+.white-section .article-text{
+
+    font-size:13px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*==================================================
+PAGE 3
+==================================================*/
+
+.ad_txt_cont.page3{
+
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+
+    box-sizing:border-box;
+
+    padding:6% 7%;
+
+}
+
+/* Heading */
+
+.page3 .head-row{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:10px;
+
+    margin-bottom:13px;
+
+}
+
+/* Circle */
+
+.page3 .circle-num{
+
+    width:68px;
+    height:68px;
+
+    border-radius:50%;
+
+    background:#c62828;
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    flex-shrink:0;
+
+    font-size:34px;
+    font-weight:700;
+
+}
+
+/* Title */
+
+.page3 .main-title{
+
+    /* font-family:"Bebas Neue",sans-serif; */
+    font-family:Arial,Helvetica,sans-serif;
+
+
+    font-size:clamp(30px,1.8vw,50px);
+
+    line-height:1;
+
+    letter-spacing:0.5px;
+
+    text-transform:uppercase;
+
+}
+
+/* Paragraphs */
+
+.page3 .text-wrap{
+
+    margin-bottom:6px;
+
+}
+
+.page3 .content-text2{
+
+    font-family:Arial,Helvetica,sans-serif;
+
+    font-size:clamp(17px,1.18vw,22px);
+
+    line-height:1.5;
+
+    text-align:justify;
+
+}
+
+.page3 .linr1{
+
+    margin-top:4px;
+
+}
+
+.page3 strong{
+
+    color:#FFE44C;
+
+    font-weight:700;
+
+}
+
+
+
+@media(max-width:992px){
+
+.page3{
+
+    padding:6%;
+
+}
+
+.page3 .circle-num{
+
+    width:58px;
+    height:58px;
+
+    font-size:28px;
+
+}
+
+.page3 .main-title{
+
+    font-size:46px;
+
+}
+
+.page3 .content-text2{
+
+    font-size:18px;
+
+}
+
+}
+
+
+
+@media(max-width:768px){
+
+.ad_txt_cont.page3{
+
+    padding:6% 5%;
+
+}
+
+.page3 .head-row{
+
+    gap:14px;
+
+}
+
+.page3 .circle-num{
+
+    width:42px;
+    height:42px;
+
+    font-size:20px;
+
+}
+
+.page3 .main-title{
+
+    font-size:32px;
+
+    line-height:1.1;
+
+}
+
+.page3 .content-text2{
+
+    font-size:15px;
+
+    line-height:1.5;
+
+}
+
+}
+
+@media(max-width:480px){
+
+.page3 .main-title{
+
+    font-size:26px;
+
+}
+
+.page3 .content-text2{
+
+    font-size:13px;
+
+}
+
+.page3 .circle-num{
+
+    width:36px;
+    height:36px;
+
+    font-size:18px;
+
+}
+
+}
