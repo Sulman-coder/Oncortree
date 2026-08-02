@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* 
+   PAGE 1
+ */
+
+.ad_content_img_box{
+    position:relative;
+    width:100%;
+    max-width: 100vw;
+    margin:0 auto 40px;
+    overflow:hidden;
+}
+
+.img_box_img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+/* Overlay */
+
+.ad_txt_cont.page1{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:8% 7% 8%;
+
+    text-align:center;
+    box-sizing:border-box;
+}
+
+/* ---------- TOP ---------- */
+
+.page1 .btop_m{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0;
+}
+
+
+.page1 .btop_m{
+    margin-top:15%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Logo */
+
+.logo-circle{
+
+    width:110px;
+    height:110px;
+
+    border-radius:50%;
+    background:#FFD400;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin-bottom:30px;
+
+    flex-shrink:0;
+}
+
+.logo-circle svg{
+
+    width:80px;
+    height:80px;
+
+}
+
+/* Heading */
+
+.page1 .title{
+
+    /* font-family:"Bebas Neue",sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-size:clamp(44px,5vw,82px);
+
+    line-height:.88;
+
+    color:#fff;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    text-shadow:0 3px 8px rgba(0,0,0,.45);
+
+    margin:0;
+}
+
+
+
+/* ===== Heading ===== */
+
+.page1 .title{
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: clamp(60px, 7vw, 106px);  
+    font-weight: 1000;
+    line-height: 1.2;                     
+    letter-spacing: 7px;
+    text-shadow: 0 4px 8px rgba(0,0,0,.45);
+    padding: 70px 0;
+
+}
+
+/* ===== Logo ===== */
+
+.page1 .btop_m{
+     margin-top: 15%; 
+}
+
+.logo-circle{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.logo-circle svg{
+    width: 80px;
+    height: 80px;
+}
+
+/* ===== Author ===== */
+
+.page1 .bt_m{
+    /* margin-top: auto; */
+    margin-bottom: 12%;     /* thora upar */
+    font-family:Arial, Helvetica, sans-serif;
+font-weight:700;
+    font-size: clamp(10px, 1vw, 23px);  
+
+}
+
+.author-label{
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.author-name{
+    font-size: 50px;
+    font-weight: 900;
+    padding: 50px 80px;
+}
+
+
+
+/* ---------- BOTTOM ---------- */
+
+.page1 .bt_m{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+     margin-bottom:30%;
+
+}
+
+/* Author */
+
+.author-label{
+
+color: #eff849;
+    font-size:45px;
+
+    font-weight:700;
+
+    margin-bottom:6px;
+
+}
+
+.author-name{
+
+    display:inline-block;
+background-color: #eff849;
+    color:#000;
+
+    padding:12px 50px;
+
+    border-radius:8px;
+
+    font-size:45px;
+
+    font-weight:700;
+
+}
+
+
+
+/* 
+   Tablet
+ */
+
+@media (max-width:992px){
+
+.ad_txt_cont.page1{
+    padding:5% 6%;
+}
+
+.logo-circle{
+    width:90px;
+    height:90px;
+    margin-bottom:24px;
+}
+
+.logo-circle svg{
+    width:56px;
+    height:56px;
+}
+
+.page1 .title{
+    font-size:clamp(60px,7.5vw,92px);
+    line-height:1,3;
+    letter-spacing:6px;
+}
+
+.author-label{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.author-name{
+    font-size:22px;
+    padding:12px 28px;
+}
+
+.page1 .bt_m{
+    margin-bottom:29%;
+}
+
+}
+
+
+/* 
+   Mobile
+ */
+
+@media (max-width:768px){
+
+.ad_txt_cont.page1{
+    padding:6% 5%;
+}
+
+.logo-circle{
+    width:80px;
+    height:80px;
+    margin-bottom:22px;
+}
+
+.logo-circle svg{
+    width:50px;
+    height:50px;
+}
+
+.page1 .title{
+    font-size:clamp(42px,9vw,58px);
+    line-height:1.3;
+    letter-spacing:4px;
+}
+
+.author-label{
+    font-size:25px;
+    margin-bottom:10px;
+}
+
+.author-name{
+    font-size:25px;
+    padding:15px 26px;
+}
+
+.page1 .bt_m{
+    margin-bottom:30%;
+}
+
+}
+
+
+/* 
+   Small Mobile
+ */
+
+@media (max-width:480px){
+
+.ad_txt_cont.page1{
+    padding:6% 5%;
+}
+
+.logo-circle{
+    width:72px;
+    height:72px;
+    margin-bottom:18px;
+}
+
+.logo-circle svg{
+    width:44px;
+    height:44px;
+}
+
+.page1 .title{
+    font-size:clamp(36px,10vw,46px);
+    line-height:.98;
+    letter-spacing:.5px;
+}
+
+.author-label{
+    font-size:26px;
+}
+
+.author-name{
+    font-size:26px;
+    padding:12px 23px;
+}
+
+.page1 .bt_m{
+    margin-bottom:12%;
+}
+
+}
