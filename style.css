@@ -123,14 +123,14 @@
 }
 
 .logo-circle{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 30px;
 }
 
 .logo-circle svg{
-    width: 80px;
-    height: 80px;
+    width: 104px;
+    height: 104px;
 }
 
 /* ===== Author ===== */
@@ -213,14 +213,14 @@ background-color: #eff849;
 }
 
 .logo-circle{
-    width:90px;
-    height:90px;
+    width:112px;
+    height:112px;
     margin-bottom:24px;
 }
 
 .logo-circle svg{
-    width:56px;
-    height:56px;
+    width:76px;
+    height:76px;
 }
 
 .page1 .title{
@@ -257,14 +257,14 @@ background-color: #eff849;
 }
 
 .logo-circle{
-    width:80px;
-    height:80px;
+    width:100px;
+    height:100px;
     margin-bottom:22px;
 }
 
 .logo-circle svg{
-    width:50px;
-    height:50px;
+    width:68px;
+    height:68px;
 }
 
 .page1 .title{
@@ -301,14 +301,14 @@ background-color: #eff849;
 }
 
 .logo-circle{
-    width:72px;
-    height:72px;
+    width:92px;
+    height:92px;
     margin-bottom:18px;
 }
 
 .logo-circle svg{
-    width:44px;
-    height:44px;
+    width:60px;
+    height:60px;
 }
 
 .page1 .title{
@@ -328,6 +328,84 @@ background-color: #eff849;
 
 .page1 .bt_m{
     margin-bottom:12%;
+}
+
+}
+
+
+/*
+   Desktop / large screen
+   On wide windows the card is far taller than the screen, so the
+   logo+title sat near the top with a huge empty gap before the
+   Author box (which stayed off-screen). Cluster everything into
+   one centered group instead, and size it up to match.
+*/
+
+@media (min-width:993px){
+
+.ad_txt_cont.page1{
+    justify-content:center;
+    gap:70px;
+}
+
+.page1 .btop_m{
+    margin-top:0;
+}
+
+.page1 .bt_m{
+    margin-bottom:0;
+}
+
+.logo-circle{
+    width:190px;
+    height:190px;
+    margin-bottom:36px;
+}
+
+.logo-circle svg{
+    width:132px;
+    height:132px;
+}
+
+.page1 .title{
+    font-size:clamp(70px,8vw,130px);
+    padding:0;
+}
+
+.author-label{
+    font-size:52px;
+}
+
+.author-name{
+    font-size:52px;
+    padding:14px 56px;
+}
+
+}
+
+@media (min-width:1400px){
+
+.logo-circle{
+    width:220px;
+    height:220px;
+}
+
+.logo-circle svg{
+    width:150px;
+    height:150px;
+}
+
+.page1 .title{
+    font-size:clamp(90px,8.5vw,150px);
+}
+
+.author-label{
+    font-size:58px;
+}
+
+.author-name{
+    font-size:58px;
+    padding:16px 62px;
 }
 
 }
